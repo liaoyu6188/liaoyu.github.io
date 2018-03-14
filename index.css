@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: none left top / cover no-repeat fixed rgb(214, 214, 214);
+	margin: 0;
+}
+
+#page{
+	box-shadow: rgb(158, 158, 158) 0px 0px 12px;
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 0;
+	background: none center top / cover no-repeat fixed rgb(255, 255, 255);
+}
+
+header{
+	padding: 0 20px;
+	overflow:hidden；
+}
+
+#header_left{
+	position: relative;
+	padding: 10px 0;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+#header_left img{
+	float: left;
+}
+#name{
+	font-size: 30px;
+	/*vertical-align: middle;*/
+	padding: 10px 15px;
+	
+}
+
+nav{
+	float: right;
+}
